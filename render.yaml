@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: crewai-api
+    runtime: python
+    region: oregon
+    plan: starter
+    buildCommand: pip install fastapi uvicorn && pip install -e "lib/crewai[tools,embeddings]"
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port 10000
+    healthCheckPath: /health
+    envVars:
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: PYTHON_VERSION
+        value: "3.12"
