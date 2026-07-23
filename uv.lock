@@ -1779,7 +1779,7 @@ requires-dist = [
     { name = "qdrant-client", marker = "extra == 'qdrant-client'", specifier = ">=1.12.1" },
     { name = "requests", specifier = ">=2.33.0,<3" },
     { name = "scrapegraph-py", marker = "extra == 'scrapegraph-py'", specifier = ">=1.9.0,<2" },
-    { name = "scrapfly-sdk", marker = "extra == 'scrapfly-sdk'", specifier = ">=0.8.19" },
+    { name = "scrapfly-sdk", marker = "extra == 'scrapfly-sdk'", specifier = ">=0.11.1" },
     { name = "selenium", marker = "extra == 'selenium'", specifier = ">=4.27.1" },
     { name = "serpapi", marker = "extra == 'serpapi'", specifier = ">=0.1.5" },
     { name = "singlestoredb", marker = "extra == 'singlestore'", specifier = ">=1.12.4" },
@@ -8283,7 +8283,7 @@ wheels = [
 
 [[package]]
 name = "scrapfly-sdk"
-version = "0.10.5"
+version = "0.11.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "backoff" },
@@ -8293,9 +8293,9 @@ dependencies = [
     { name = "requests" },
     { name = "urllib3" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/79/89/9d6fe40baeb5515fcc79cc0ddda8284b87d73d527ae0e1d7a68da8c6b41e/scrapfly_sdk-0.10.5.tar.gz", hash = "sha256:473b1d3aa3aa683bc65cfdd7ba42fc33483541c0f76545b36d61d00aa53215dc", size = 100937, upload-time = "2026-06-08T20:03:44.821Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/f9/d4/692586d1437c1274d5db2b123d290593938f085915eff3efc6e44b9cd1fb/scrapfly_sdk-0.11.1.tar.gz", hash = "sha256:46785218aaf1733be08a925b39648d05b77cb842e4385a658f62662181221faa", size = 100907, upload-time = "2026-06-14T08:50:46.865Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/ad/96/d297fc5e3c87b0a9805ac88c219617832416f6fe19f1cfb738b947bfb5e1/scrapfly_sdk-0.10.5-py3-none-any.whl", hash = "sha256:ef2b9eeec5d82e75b3c704b2b8473fbf27a04c1886f42a4e486ed8c2984672f5", size = 95370, upload-time = "2026-06-08T20:03:43.623Z" },
+    { url = "https://files.pythonhosted.org/packages/66/a7/26e514017f6aaadcc0044d60a4b10fb8c75b9c278fd631939b9841bd5d4a/scrapfly_sdk-0.11.1-py3-none-any.whl", hash = "sha256:2e3919b30f8798cc00adbba5771481dd79c8eac61e40f74d7a8bf1ee53aae2d4", size = 95352, upload-time = "2026-06-14T08:50:45.391Z" },
 ]
 
 [[package]]

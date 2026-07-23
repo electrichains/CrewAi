@@ -27,7 +27,7 @@ Documentation = "https://docs.crewai.com"
 
 [project.optional-dependencies]
 scrapfly-sdk = [
-    "scrapfly-sdk>=0.8.19",
+    "scrapfly-sdk>=0.11.1",
 ]
 sqlalchemy = [
     "sqlalchemy>=2.0.35",
